@@ -4,7 +4,7 @@ import math
 #print ("hej ho");
 
 # 210921
-# typy danych, laczenieStringow, input, rzuty, listy
+# typy danych, laczenieStringow, input, rzuty, listy, delta
 #print ('hej',3) #ze spacja
 
 number = 8;
@@ -127,9 +127,12 @@ a = int(input("Podaj a: "))
 b = int(input("Podaj b: "))
 c = int(input("Podaj c: "))
 '''
+'''
 a=sys.argv[0]
 b=sys.argv[1]
 c=sys.argv[2]
+a,b,c = sys.argv[1:] 
+#[0] to nazwa pliku, więc nie #w c jest nur ostatni element
 delta = -b + 4*a*c
 print(delta)
 if delta>0:
@@ -144,13 +147,33 @@ else:
 
 print("ans ",ans)
 
-
+'''
 
 
 number =2
 #if number:...
 #if lista:
 
+'''
+for x in range(8):
+    print("hej ",x)
+'''
 
+def hejho(x):
+
+    tablica=[]
+    for y in range (1,x+1):
+        tablica.append(y)
+    print(tablica)
+
+#hejho(10)
+
+a,b = 1, 2
+a, b = b, a
+
+
+def s(a,b):
+    return a+b
+# print(s(3,4))
 
 
