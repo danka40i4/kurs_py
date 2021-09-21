@@ -24,5 +24,11 @@ git remote -v
 
 git remote set-url origin ..linkHttps...
 
-git push origin master
+git push origin main
 
+
+Odswiezyc
+
+git add .
+git commit -m ""
+git push origin main
