@@ -140,5 +140,12 @@ else:
 
 print("ans ",ans)
 
+git commit -m "wiad"
+
+git remote add origin git ...
+
+git remote -v
+
+
 
 
