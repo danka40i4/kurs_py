@@ -122,10 +122,14 @@ x=len(lista)
 
 #funkcja = input("Podaj funkcję: ")
 # ax2 + bx + c
-
+'''
 a = int(input("Podaj a: "))
 b = int(input("Podaj b: "))
 c = int(input("Podaj c: "))
+'''
+a=sys.argv[0]
+b=sys.argv[1]
+c=sys.argv[2]
 delta = -b + 4*a*c
 print(delta)
 if delta>0:
@@ -140,11 +144,12 @@ else:
 
 print("ans ",ans)
 
-git commit -m "wiad"
 
-git remote add origin git ...
 
-git remote -v
+
+number =2
+#if number:...
+#if lista:
 
 
 
