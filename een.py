@@ -177,3 +177,8 @@ def s(a,b):
 # print(s(3,4))
 
 
+a=5
+while a:
+    # print(a)
+    a-=1
+
